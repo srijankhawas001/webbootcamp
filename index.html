@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        <ul class="nav-list">
+          <a href="#"><li>Home</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#services"><li>Services</li></a>
+          <a href="#"><li>Blog</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </ul>
+
+        <ul class="user-credentials">
+          <a href="#"><li>Login</li></a>
+          <a href="#"><li>Sign Up</li></a>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="left-div">
+        <h3>Hi, I'm</h3>
+        <h1>John Doe</h1>
+        <h4>A Full Stack <span id="soft-eng-text">Software Engineer</span>!</h4>
+      </div>
+
+      <div class="right-div">
+        <img src="./myImage.jpg" alt="my-image" />
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <h1>Our Services</h1>
+
+      <div class="container">
+        <div class="card">
+          <h2>Web Development</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            alias temporibus amet aperiam repellendus possimus?
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Graphic Design</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            alias temporibus amet aperiam repellendus possimus?
+          </p>
+        </div>
+
+        <div class="card">
+          <h2>Digital Marketing</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+            alias temporibus amet aperiam repellendus possimus?
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <h1>Contact Me</h1>
+
+      <form>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <input type="email" id="email" placeholder="Email Address" />
+        <textarea id="message" rows="5" placeholder="Your message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 John Doe</p>
+
+      <div class="socials">
+        <a href="https://github.com/sanjeev111ok"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/sanjeev-shrestha-7378a9280/"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="https://www.facebook.com/sanjeev.acharjushrestha"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="https://www.twitter.com"
+          ><i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
